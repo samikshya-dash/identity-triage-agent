@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="210" viewBox="0 0 1000 210" role="img" aria-label="Identity threat triage agent">
+<style>text{font-family:system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif}</style>
+<rect x="0.5" y="0.5" width="999" height="209" rx="12" fill="#fcfcfb" stroke="#dcdbd4"/>
+<rect x="0.5" y="0.5" width="8" height="209" rx="4" fill="#4a3aa7"/>
+<text x="44" y="78" font-size="34" font-weight="700" fill="#0b0b0b">Identity threat triage agent</text>
+<rect x="44" y="94" width="120" height="4" rx="2" fill="#4a3aa7"/>
+<text x="44" y="130" font-size="16.5" fill="#52514e">An AI agent that triages Entra ID Protection risk, and guardrails that hold when it is wrong</text>
+<rect x="44" y="154" width="179" height="34" rx="17" fill="#f3f2ee" stroke="#dcdbd4"/><text x="60" y="177" font-size="16" font-weight="700" fill="#4a3aa7">26</text><text x="89" y="177" font-size="13.5" fill="#52514e">risk detections</text>
+<rect x="235" y="154" width="179" height="34" rx="17" fill="#f3f2ee" stroke="#dcdbd4"/><text x="251" y="177" font-size="16" font-weight="700" fill="#4a3aa7">17</text><text x="280" y="177" font-size="13.5" fill="#52514e">alert scenarios</text>
+<rect x="426" y="154" width="194" height="34" rx="17" fill="#f3f2ee" stroke="#dcdbd4"/><text x="442" y="177" font-size="16" font-weight="700" fill="#4a3aa7">18</text><text x="471" y="177" font-size="13.5" fill="#52514e">controls reviewed</text>
+<rect x="632" y="154" width="226" height="34" rx="17" fill="#f3f2ee" stroke="#dcdbd4"/><text x="648" y="177" font-size="16" font-weight="700" fill="#4a3aa7">0</text><text x="666" y="177" font-size="13.5" fill="#52514e">unsafe outcomes allowed</text>
+</svg>

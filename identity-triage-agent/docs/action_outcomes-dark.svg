@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="360" viewBox="0 0 860 360" role="img" aria-label="What happened to every action the brain proposed">
+<style>text{font-family:system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif}</style>
+<rect x="0.5" y="0.5" width="859" height="359" rx="12" fill="#0b1b33" stroke="#2a4f80"/>
+<text x="24" y="36" font-size="17" font-weight="700" fill="#ffffff">What happened to every action the brain proposed</text>
+<text x="24" y="58" font-size="12.5" fill="#8fb3dd">Across all seventeen cases. The model proposes; code decides</text>
+<line x1="56" x2="836" y1="308.0" y2="308.0" stroke="#3b5b8a"/>
+<text x="48" y="312.0" font-size="11" fill="#8fb3dd" text-anchor="end">0</text>
+<line x1="56" x2="836" y1="255.5" y2="255.5" stroke="#24406a"/>
+<text x="48" y="259.5" font-size="11" fill="#8fb3dd" text-anchor="end">10</text>
+<line x1="56" x2="836" y1="203.0" y2="203.0" stroke="#24406a"/>
+<text x="48" y="207.0" font-size="11" fill="#8fb3dd" text-anchor="end">20</text>
+<line x1="56" x2="836" y1="150.5" y2="150.5" stroke="#24406a"/>
+<text x="48" y="154.5" font-size="11" fill="#8fb3dd" text-anchor="end">30</text>
+<line x1="56" x2="836" y1="98.0" y2="98.0" stroke="#24406a"/>
+<text x="48" y="102.0" font-size="11" fill="#8fb3dd" text-anchor="end">40</text>
+<rect x="681.2" y="25" width="12" height="12" rx="3" fill="#d95926"/><text x="698.2" y="35.5" font-size="12" fill="#cfe3ff">Injection victim</text>
+<rect x="549.8000000000001" y="25" width="12" height="12" rx="3" fill="#3987e5"/><text x="566.8000000000001" y="35.5" font-size="12" fill="#cfe3ff">Offline brain</text>
+<path d="M116.5,308.0 V264.8 Q116.5,260.8 120.5,260.8 H148.5 Q152.5,260.8 152.5,264.8 V308.0 Z" fill="#3987e5"><title>Done automatically · Offline brain: 9</title></path>
+<text x="134.5" y="255.8" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle">9</text>
+<path d="M154.5,308.0 V270.0 Q154.5,266.0 158.5,266.0 H186.5 Q190.5,266.0 190.5,270.0 V308.0 Z" fill="#d95926"><title>Done automatically · Injection victim: 8</title></path>
+<text x="172.5" y="261.0" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle">8</text>
+<text x="153.5" y="326.0" font-size="11.5" fill="#cfe3ff" text-anchor="middle">Done automatically</text>
+<path d="M311.5,308.0 V154.5 Q311.5,150.5 315.5,150.5 H343.5 Q347.5,150.5 347.5,154.5 V308.0 Z" fill="#3987e5"><title>Waiting for approval · Offline brain: 30</title></path>
+<text x="329.5" y="145.5" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle">30</text>
+<path d="M349.5,308.0 V170.2 Q349.5,166.2 353.5,166.2 H381.5 Q385.5,166.2 385.5,170.2 V308.0 Z" fill="#d95926"><title>Waiting for approval · Injection victim: 27</title></path>
+<text x="367.5" y="161.2" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle">27</text>
+<text x="348.5" y="326.0" font-size="11.5" fill="#cfe3ff" text-anchor="middle">Waiting for approval</text>
+<path d="M506.5,308.0 V308.0 Q506.5,308.0 506.5,308.0 H542.5 Q542.5,308.0 542.5,308.0 V308.0 Z" fill="#3987e5"><title>Held: verdict unconfirmed · Offline brain: 0</title></path>
+<text x="524.5" y="303.0" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle">0</text>
+<path d="M544.5,308.0 V308.0 Q544.5,308.0 544.5,308.0 H580.5 Q580.5,308.0 580.5,308.0 V308.0 Z" fill="#d95926"><title>Held: verdict unconfirmed · Injection victim: 0</title></path>
+<text x="562.5" y="303.0" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle">0</text>
+<text x="543.5" y="326.0" font-size="11.5" fill="#cfe3ff" text-anchor="middle">Held: verdict unconfirmed</text>
+<path d="M701.5,308.0 V308.0 Q701.5,308.0 701.5,308.0 H737.5 Q737.5,308.0 737.5,308.0 V308.0 Z" fill="#3987e5"><title>Denied by policy · Offline brain: 0</title></path>
+<text x="719.5" y="303.0" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle">0</text>
+<path d="M739.5,308.0 V305.4 Q739.5,302.8 742.1,302.8 H772.9 Q775.5,302.8 775.5,305.4 V308.0 Z" fill="#d95926"><title>Denied by policy · Injection victim: 1</title></path>
+<text x="757.5" y="297.8" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle">1</text>
+<text x="738.5" y="326.0" font-size="11.5" fill="#cfe3ff" text-anchor="middle">Denied by policy</text>
+</svg>

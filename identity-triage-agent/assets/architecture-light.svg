@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="640" viewBox="0 0 1000 640" role="img" aria-label="The model proposes, code decides">
+<style>text{font-family:system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif}</style>
+<rect x="0.5" y="0.5" width="999" height="639" rx="12" fill="#fcfcfb" stroke="#dcdbd4"/>
+<text x="24" y="36" font-size="17" font-weight="700" fill="#0b0b0b">The model proposes, code decides</text>
+<text x="24" y="58" font-size="12.5" fill="#6f6e69">Code closes what is already resolved, the brain investigates the rest, and code checks every action and verdict before it stands.</text>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6f6e69"/></marker></defs>
+<rect x="40" y="100" width="150" height="32" rx="16.0" fill="#2a78d6" fill-opacity="0.16" stroke="#2a78d6" stroke-width="1.3"/><text x="115.0" y="120.5" font-size="12.5" font-weight="600" fill="#0b0b0b" text-anchor="middle">Risk detection</text>
+<rect x="250" y="84" width="300" height="64" rx="10" fill="#ffffff"/>
+<rect x="250" y="84" width="300" height="64" rx="10" fill="#eb6834" fill-opacity="0.1" stroke="#eb6834" stroke-width="1.5"/>
+<text x="400.0" y="112" font-size="15" font-weight="700" fill="#0b0b0b" text-anchor="middle">Pre-triage</text>
+<text x="400.0" y="134" font-size="12.2" fill="#52514e" text-anchor="middle">Already closed? Do the logs agree?</text>
+<rect x="690" y="100" width="270" height="32" rx="16.0" fill="#4a3aa7" fill-opacity="0.16" stroke="#4a3aa7" stroke-width="1.3"/><text x="825.0" y="120.5" font-size="12.5" font-weight="600" fill="#0b0b0b" text-anchor="middle">Auto-closed, no model call</text>
+<path d="M190,116 L246,116" stroke="#6f6e69" stroke-width="1.7" fill="none" marker-end="url(#ar)"/>
+<path d="M550,116 L686,116" stroke="#6f6e69" stroke-width="1.7" fill="none" marker-end="url(#ar)"/>
+<text x="618.0" y="109.0" font-size="11.8" fill="#6f6e69" text-anchor="middle">closed and consistent</text>
+<path d="M500,148 L500,216" stroke="#6f6e69" stroke-width="1.7" fill="none" marker-end="url(#ar)"/>
+<text x="510" y="188" font-size="11.8" fill="#6f6e69" text-anchor="start">open, or reopened</text>
+<rect x="40" y="220" width="240" height="112" rx="10" fill="#ffffff"/>
+<rect x="40" y="220" width="240" height="112" rx="10" fill="#4a3aa7" fill-opacity="0.1" stroke="#4a3aa7" stroke-width="1.5"/>
+<text x="160.0" y="248" font-size="15" font-weight="700" fill="#0b0b0b" text-anchor="middle">Brain</text>
+<text x="160.0" y="270" font-size="12.2" fill="#52514e" text-anchor="middle">Language model, or offline rules</text>
+<text x="160.0" y="287" font-size="12.2" fill="#52514e" text-anchor="middle">Chooses the next step</text>
+<text x="160.0" y="304" font-size="12.2" fill="#52514e" text-anchor="middle">Cannot execute anything</text>
+<rect x="380" y="220" width="240" height="112" rx="10" fill="#ffffff"/>
+<rect x="380" y="220" width="240" height="112" rx="10" fill="#2a78d6" fill-opacity="0.1" stroke="#2a78d6" stroke-width="1.5"/>
+<text x="500.0" y="248" font-size="15" font-weight="700" fill="#0b0b0b" text-anchor="middle">Agent loop</text>
+<text x="500.0" y="270" font-size="12.2" fill="#52514e" text-anchor="middle">Step budget · tool allow-list</text>
+<text x="500.0" y="287" font-size="12.2" fill="#52514e" text-anchor="middle">Audit trail of every call</text>
+<text x="500.0" y="304" font-size="12.2" fill="#52514e" text-anchor="middle">Runs the guardrails</text>
+<rect x="720" y="220" width="240" height="112" rx="10" fill="#ffffff"/>
+<rect x="720" y="220" width="240" height="112" rx="10" fill="#2a78d6" fill-opacity="0.1" stroke="#2a78d6" stroke-width="1.5"/>
+<text x="840.0" y="248" font-size="15" font-weight="700" fill="#0b0b0b" text-anchor="middle">11 read-only tools</text>
+<text x="840.0" y="270" font-size="12.2" fill="#52514e" text-anchor="middle">Sign-ins · profile · audit · device · IP</text>
+<text x="840.0" y="287" font-size="12.2" fill="#52514e" text-anchor="middle">Risk history · detection playbook</text>
+<text x="840.0" y="304" font-size="12.2" fill="#52514e" text-anchor="middle">Conditional Access review</text>
+<path d="M380,256 L284,256" stroke="#6f6e69" stroke-width="1.7" fill="none" marker-end="url(#ar)"/>
+<text x="332.0" y="249.0" font-size="11.8" fill="#6f6e69" text-anchor="middle">history so far</text>
+<path d="M280,298 L376,298" stroke="#6f6e69" stroke-width="1.7" fill="none" marker-end="url(#ar)"/>
+<text x="328.0" y="316" font-size="11.8" fill="#6f6e69" text-anchor="middle">next tool calls</text>
+<path d="M620,256 L716,256" stroke="#6f6e69" stroke-width="1.7" fill="none" marker-end="url(#ar)"/>
+<text x="668.0" y="249.0" font-size="11.8" fill="#6f6e69" text-anchor="middle">tool call</text>
+<path d="M720,298 L624,298" stroke="#6f6e69" stroke-width="1.7" fill="none" marker-end="url(#ar)"/>
+<text x="672.0" y="316" font-size="11.8" fill="#6f6e69" text-anchor="middle">facts, as data</text>
+<rect x="215" y="415" width="260" height="100" rx="10" fill="#ffffff"/>
+<rect x="215" y="415" width="260" height="100" rx="10" fill="#eb6834" fill-opacity="0.1" stroke="#eb6834" stroke-width="1.5"/>
+<text x="345.0" y="443" font-size="15" font-weight="700" fill="#0b0b0b" text-anchor="middle">Action policy</text>
+<text x="345.0" y="465" font-size="12.2" fill="#52514e" text-anchor="middle">Scope lock · approval rules</text>
+<text x="345.0" y="482" font-size="12.2" fill="#52514e" text-anchor="middle">Break-glass accounts never touched</text>
+<rect x="525" y="415" width="260" height="100" rx="10" fill="#ffffff"/>
+<rect x="525" y="415" width="260" height="100" rx="10" fill="#eb6834" fill-opacity="0.1" stroke="#eb6834" stroke-width="1.5"/>
+<text x="655.0" y="443" font-size="15" font-weight="700" fill="#0b0b0b" text-anchor="middle">Verifier</text>
+<text x="655.0" y="465" font-size="12.2" fill="#52514e" text-anchor="middle">Evidence must cite real tool calls</text>
+<text x="655.0" y="482" font-size="12.2" fill="#52514e" text-anchor="middle">A contradicted 'benign' is overruled</text>
+<path d="M450,332 L360,411" stroke="#6f6e69" stroke-width="1.7" fill="none" marker-end="url(#ar)"/>
+<text x="372" y="370" font-size="11.8" fill="#6f6e69" text-anchor="end">propose_action</text>
+<path d="M550,332 L640,411" stroke="#6f6e69" stroke-width="1.7" fill="none" marker-end="url(#ar)"/>
+<text x="628" y="370" font-size="11.8" fill="#6f6e69" text-anchor="start">submit_verdict</text>
+<rect x="40" y="570" width="170" height="32" rx="16.0" fill="#0ca30c" fill-opacity="0.16" stroke="#0ca30c" stroke-width="1.3"/><text x="125.0" y="590.5" font-size="12.5" font-weight="600" fill="#0b0b0b" text-anchor="middle">Runs automatically</text>
+<path d="M290,515 L125.0,566" stroke="#6f6e69" stroke-width="1.7" fill="none" marker-end="url(#ar)"/>
+<rect x="230" y="570" width="170" height="32" rx="16.0" fill="#fab219" fill-opacity="0.16" stroke="#fab219" stroke-width="1.3"/><text x="315.0" y="590.5" font-size="12.5" font-weight="600" fill="#0b0b0b" text-anchor="middle">Waits for a person</text>
+<path d="M345,515 L315.0,566" stroke="#6f6e69" stroke-width="1.7" fill="none" marker-end="url(#ar)"/>
+<rect x="420" y="570" width="100" height="32" rx="16.0" fill="#d03b3b" fill-opacity="0.16" stroke="#d03b3b" stroke-width="1.3"/><text x="470.0" y="590.5" font-size="12.5" font-weight="600" fill="#0b0b0b" text-anchor="middle">Denied</text>
+<path d="M400,515 L470.0,566" stroke="#6f6e69" stroke-width="1.7" fill="none" marker-end="url(#ar)"/>
+<rect x="560" y="570" width="190" height="32" rx="16.0" fill="#0ca30c" fill-opacity="0.16" stroke="#0ca30c" stroke-width="1.3"/><text x="655.0" y="590.5" font-size="12.5" font-weight="600" fill="#0b0b0b" text-anchor="middle">Verdict and evidence</text>
+<path d="M655,515 L655,566" stroke="#6f6e69" stroke-width="1.7" fill="none" marker-end="url(#ar)"/>
+<rect x="790" y="570" width="170" height="32" rx="16.0" fill="#2a78d6" fill-opacity="0.16" stroke="#2a78d6" stroke-width="1.3"/><text x="875.0" y="590.5" font-size="12.5" font-weight="600" fill="#0b0b0b" text-anchor="middle">Prevention gaps</text>
+<path d="M880,332 L878,566" stroke="#6f6e69" stroke-width="1.7" fill="none" marker-end="url(#ar)"/>
+</svg>

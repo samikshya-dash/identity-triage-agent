@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="340" viewBox="0 0 860 340" role="img" aria-label="Conditional Access and settings gaps the agent found">
+<style>text{font-family:system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif}</style>
+<rect x="0.5" y="0.5" width="859" height="339" rx="12" fill="#fcfcfb" stroke="#dcdbd4"/>
+<text x="24" y="36" font-size="17" font-weight="700" fill="#0b0b0b">Conditional Access and settings gaps the agent found</text>
+<text x="24" y="58" font-size="12.5" fill="#6f6e69">Number of investigated alerts in which each gap was relevant</text>
+<text x="320" y="96" font-size="12.5" fill="#52514e" text-anchor="end">Token protection</text>
+<rect x="330" y="83" width="440.0" height="21" rx="4" fill="#eb6834"><title>Token protection: 3</title></rect>
+<text x="778.0" y="96" font-size="12.5" font-weight="700" fill="#0b0b0b">3</text>
+<text x="320" y="130" font-size="12.5" fill="#52514e" text-anchor="end">Require a compliant or hybrid-joined device</text>
+<rect x="330" y="117" width="440.0" height="21" rx="4" fill="#eb6834"><title>Require a compliant or hybrid-joined device: 3</title></rect>
+<text x="778.0" y="130" font-size="12.5" font-weight="700" fill="#0b0b0b">3</text>
+<text x="320" y="164" font-size="12.5" fill="#52514e" text-anchor="end">User risk policy</text>
+<rect x="330" y="151" width="440.0" height="21" rx="4" fill="#eb6834"><title>User risk policy: 3</title></rect>
+<text x="778.0" y="164" font-size="12.5" font-weight="700" fill="#0b0b0b">3</text>
+<text x="320" y="198" font-size="12.5" fill="#52514e" text-anchor="end">Phishing-resistant MFA</text>
+<rect x="330" y="185" width="293.3" height="21" rx="4" fill="#eb6834"><title>Phishing-resistant MFA: 2</title></rect>
+<text x="631.3" y="198" font-size="12.5" font-weight="700" fill="#0b0b0b">2</text>
+<text x="320" y="232" font-size="12.5" fill="#52514e" text-anchor="end">Block countries you do not operate in</text>
+<rect x="330" y="219" width="293.3" height="21" rx="4" fill="#eb6834"><title>Block countries you do not operate in: 2</title></rect>
+<text x="631.3" y="232" font-size="12.5" font-weight="700" fill="#0b0b0b">2</text>
+<text x="320" y="266" font-size="12.5" fill="#52514e" text-anchor="end">Report suspicious activity</text>
+<rect x="330" y="253" width="146.7" height="21" rx="4" fill="#eb6834"><title>Report suspicious activity: 1</title></rect>
+<text x="484.7" y="266" font-size="12.5" font-weight="700" fill="#0b0b0b">1</text>
+<text x="320" y="300" font-size="12.5" fill="#52514e" text-anchor="end">Policy exclusions</text>
+<rect x="330" y="287" width="146.7" height="21" rx="4" fill="#eb6834"><title>Policy exclusions: 1</title></rect>
+<text x="484.7" y="300" font-size="12.5" font-weight="700" fill="#0b0b0b">1</text>
+</svg>

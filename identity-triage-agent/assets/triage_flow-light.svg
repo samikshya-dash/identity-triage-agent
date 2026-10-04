@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="470" viewBox="0 0 1000 470" role="img" aria-label="Triage starts with the risk state">
+<style>text{font-family:system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif}</style>
+<rect x="0.5" y="0.5" width="999" height="469" rx="12" fill="#fcfcfb" stroke="#dcdbd4"/>
+<text x="24" y="36" font-size="17" font-weight="700" fill="#0b0b0b">Triage starts with the risk state</text>
+<text x="24" y="58" font-size="12.5" fill="#6f6e69">ID Protection has often resolved the risk already. The agent closes those in code, after checking that the logs agree.</text>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6f6e69"/></marker></defs>
+<rect x="24" y="120" width="300" height="36" rx="18.0" fill="#4a3aa7" fill-opacity="0.16" stroke="#4a3aa7" stroke-width="1.3"/><text x="174.0" y="142.5" font-size="12.5" font-weight="600" fill="#0b0b0b" text-anchor="middle">remediated, dismissed, confirmed safe</text>
+<rect x="380" y="86" width="290" height="104" rx="10" fill="#ffffff"/>
+<rect x="380" y="86" width="290" height="104" rx="10" fill="#4a3aa7" fill-opacity="0.1" stroke="#4a3aa7" stroke-width="1.5"/>
+<text x="525.0" y="114" font-size="15" font-weight="700" fill="#0b0b0b" text-anchor="middle">Safety check in code</text>
+<text x="525.0" y="136" font-size="11.8" fill="#52514e" text-anchor="middle">No account change from the unfamiliar IP</text>
+<text x="525.0" y="153" font-size="11.8" fill="#52514e" text-anchor="middle">MFA is enough for this detection type</text>
+<text x="525.0" y="170" font-size="11.8" fill="#52514e" text-anchor="middle">A leaked password was actually changed</text>
+<path d="M324,138 L376,138" stroke="#6f6e69" stroke-width="1.7" fill="none" marker-end="url(#ar)"/>
+<rect x="720" y="94" width="256" height="36" rx="18.0" fill="#0ca30c" fill-opacity="0.16" stroke="#0ca30c" stroke-width="1.3"/><text x="848.0" y="116.5" font-size="12.5" font-weight="600" fill="#0b0b0b" text-anchor="middle">Auto-close: all checks hold</text>
+<path d="M670,138 L716,112" stroke="#6f6e69" stroke-width="1.7" fill="none" marker-end="url(#ar)"/>
+<rect x="720" y="148" width="256" height="36" rx="18.0" fill="#d03b3b" fill-opacity="0.16" stroke="#d03b3b" stroke-width="1.3"/><text x="848.0" y="170.5" font-size="12.5" font-weight="600" fill="#0b0b0b" text-anchor="middle">Reopen: any check fails</text>
+<path d="M670,138 L716,166" stroke="#6f6e69" stroke-width="1.7" fill="none" marker-end="url(#ar)"/>
+<rect x="24" y="244" width="300" height="36" rx="18.0" fill="#eb6834" fill-opacity="0.16" stroke="#eb6834" stroke-width="1.3"/><text x="174.0" y="266.5" font-size="12.5" font-weight="600" fill="#0b0b0b" text-anchor="middle">at risk</text>
+<rect x="380" y="210" width="290" height="104" rx="10" fill="#ffffff"/>
+<rect x="380" y="210" width="290" height="104" rx="10" fill="#eb6834" fill-opacity="0.1" stroke="#eb6834" stroke-width="1.5"/>
+<text x="525.0" y="238" font-size="15" font-weight="700" fill="#0b0b0b" text-anchor="middle">Set priority, then investigate</text>
+<text x="525.0" y="260" font-size="11.8" fill="#52514e" text-anchor="middle">P1 to P4 from detection type, risk level</text>
+<text x="525.0" y="277" font-size="11.8" fill="#52514e" text-anchor="middle">and whether the account is privileged</text>
+<text x="525.0" y="294" font-size="11.8" fill="#52514e" text-anchor="middle">Agent gathers facts with its tools</text>
+<path d="M324,262 L376,262" stroke="#6f6e69" stroke-width="1.7" fill="none" marker-end="url(#ar)"/>
+<rect x="720" y="218" width="256" height="36" rx="18.0" fill="#d03b3b" fill-opacity="0.16" stroke="#d03b3b" stroke-width="1.3"/><text x="848.0" y="240.5" font-size="12.5" font-weight="600" fill="#0b0b0b" text-anchor="middle">Attack: propose containment</text>
+<path d="M670,262 L716,236" stroke="#6f6e69" stroke-width="1.7" fill="none" marker-end="url(#ar)"/>
+<rect x="720" y="272" width="256" height="36" rx="18.0" fill="#0ca30c" fill-opacity="0.16" stroke="#0ca30c" stroke-width="1.3"/><text x="848.0" y="294.5" font-size="12.5" font-weight="600" fill="#0b0b0b" text-anchor="middle">Benign or unclear: a person</text>
+<path d="M670,262 L716,290" stroke="#6f6e69" stroke-width="1.7" fill="none" marker-end="url(#ar)"/>
+<rect x="24" y="368" width="300" height="36" rx="18.0" fill="#e34948" fill-opacity="0.16" stroke="#e34948" stroke-width="1.3"/><text x="174.0" y="390.5" font-size="12.5" font-weight="600" fill="#0b0b0b" text-anchor="middle">confirmed compromised</text>
+<rect x="380" y="334" width="290" height="104" rx="10" fill="#ffffff"/>
+<rect x="380" y="334" width="290" height="104" rx="10" fill="#e34948" fill-opacity="0.1" stroke="#e34948" stroke-width="1.5"/>
+<text x="525.0" y="362" font-size="15" font-weight="700" fill="#0b0b0b" text-anchor="middle">Scope the damage</text>
+<text x="525.0" y="384" font-size="11.8" fill="#52514e" text-anchor="middle">An administrator has already decided</text>
+<text x="525.0" y="401" font-size="11.8" fill="#52514e" text-anchor="middle">Agent finds what the attacker changed</text>
+<text x="525.0" y="418" font-size="11.8" fill="#52514e" text-anchor="middle">and proposes how to undo each change</text>
+<path d="M324,386 L376,386" stroke="#6f6e69" stroke-width="1.7" fill="none" marker-end="url(#ar)"/>
+<rect x="720" y="368" width="256" height="36" rx="18.0" fill="#d03b3b" fill-opacity="0.16" stroke="#d03b3b" stroke-width="1.3"/><text x="848.0" y="390.5" font-size="12.5" font-weight="600" fill="#0b0b0b" text-anchor="middle">Containment plan for approval</text>
+<path d="M670,386 L716,386" stroke="#6f6e69" stroke-width="1.7" fill="none" marker-end="url(#ar)"/>
+</svg>

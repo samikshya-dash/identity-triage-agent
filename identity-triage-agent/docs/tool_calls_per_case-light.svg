@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="350" viewBox="0 0 860 350" role="img" aria-label="Tool calls per investigation">
+<style>text{font-family:system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif}</style>
+<rect x="0.5" y="0.5" width="859" height="349" rx="12" fill="#fcfcfb" stroke="#dcdbd4"/>
+<text x="24" y="36" font-size="17" font-weight="700" fill="#0b0b0b">Tool calls per investigation</text>
+<text x="24" y="58" font-size="12.5" fill="#6f6e69">The thirteen alerts that needed investigating, by alert number. More calls where there is more to check and undo</text>
+<line x1="56" x2="836" y1="298.0" y2="298.0" stroke="#c3c2b7"/>
+<text x="48" y="302.0" font-size="11" fill="#6f6e69" text-anchor="end">0</text>
+<line x1="56" x2="836" y1="245.5" y2="245.5" stroke="#e7e6df"/>
+<text x="48" y="249.5" font-size="11" fill="#6f6e69" text-anchor="end">5</text>
+<line x1="56" x2="836" y1="193.0" y2="193.0" stroke="#e7e6df"/>
+<text x="48" y="197.0" font-size="11" fill="#6f6e69" text-anchor="end">10</text>
+<line x1="56" x2="836" y1="140.5" y2="140.5" stroke="#e7e6df"/>
+<text x="48" y="144.5" font-size="11" fill="#6f6e69" text-anchor="end">15</text>
+<line x1="56" x2="836" y1="88.0" y2="88.0" stroke="#e7e6df"/>
+<text x="48" y="92.0" font-size="11" fill="#6f6e69" text-anchor="end">20</text>
+<rect x="720.2" y="25" width="12" height="12" rx="3" fill="#b87a00"/><text x="737.2" y="35.5" font-size="12" fill="#52514e">To a person</text>
+<rect x="643.4000000000001" y="25" width="12" height="12" rx="3" fill="#0ca30c"/><text x="660.4000000000001" y="35.5" font-size="12" fill="#52514e">Benign</text>
+<rect x="504.2000000000001" y="25" width="12" height="12" rx="3" fill="#2a78d6"/><text x="521.2" y="35.5" font-size="12" fill="#52514e">Attack blocked</text>
+<rect x="388.4000000000001" y="25" width="12" height="12" rx="3" fill="#d03b3b"/><text x="405.4000000000001" y="35.5" font-size="12" fill="#52514e">Compromised</text>
+<path d="M68.0,298.0 V113.0 Q68.0,109.0 72.0,109.0 H100.0 Q104.0,109.0 104.0,113.0 V298.0 Z" fill="#d03b3b"><title>1: 18</title></path>
+<text x="86.0" y="103.0" font-size="12" font-weight="700" fill="#0b0b0b" text-anchor="middle">18</text>
+<text x="86.0" y="316.0" font-size="11.5" fill="#52514e" text-anchor="middle">1</text>
+<path d="M128.0,298.0 V155.0 Q128.0,151.0 132.0,151.0 H160.0 Q164.0,151.0 164.0,155.0 V298.0 Z" fill="#0ca30c"><title>2: 14</title></path>
+<text x="146.0" y="145.0" font-size="12" font-weight="700" fill="#0b0b0b" text-anchor="middle">14</text>
+<text x="146.0" y="316.0" font-size="11.5" fill="#52514e" text-anchor="middle">2</text>
+<path d="M188.0,298.0 V228.5 Q188.0,224.5 192.0,224.5 H220.0 Q224.0,224.5 224.0,228.5 V298.0 Z" fill="#2a78d6"><title>3: 7</title></path>
+<text x="206.0" y="218.5" font-size="12" font-weight="700" fill="#0b0b0b" text-anchor="middle">7</text>
+<text x="206.0" y="316.0" font-size="11.5" fill="#52514e" text-anchor="middle">3</text>
+<path d="M248.0,298.0 V134.0 Q248.0,130.0 252.0,130.0 H280.0 Q284.0,130.0 284.0,134.0 V298.0 Z" fill="#d03b3b"><title>4: 16</title></path>
+<text x="266.0" y="124.0" font-size="12" font-weight="700" fill="#0b0b0b" text-anchor="middle">16</text>
+<text x="266.0" y="316.0" font-size="11.5" fill="#52514e" text-anchor="middle">4</text>
+<path d="M308.0,298.0 V165.5 Q308.0,161.5 312.0,161.5 H340.0 Q344.0,161.5 344.0,165.5 V298.0 Z" fill="#b87a00"><title>5: 13</title></path>
+<text x="326.0" y="155.5" font-size="12" font-weight="700" fill="#0b0b0b" text-anchor="middle">13</text>
+<text x="326.0" y="316.0" font-size="11.5" fill="#52514e" text-anchor="middle">5</text>
+<path d="M368.0,298.0 V144.5 Q368.0,140.5 372.0,140.5 H400.0 Q404.0,140.5 404.0,144.5 V298.0 Z" fill="#d03b3b"><title>6: 15</title></path>
+<text x="386.0" y="134.5" font-size="12" font-weight="700" fill="#0b0b0b" text-anchor="middle">15</text>
+<text x="386.0" y="316.0" font-size="11.5" fill="#52514e" text-anchor="middle">6</text>
+<path d="M428.0,298.0 V239.0 Q428.0,235.0 432.0,235.0 H460.0 Q464.0,235.0 464.0,239.0 V298.0 Z" fill="#b87a00"><title>7: 6</title></path>
+<text x="446.0" y="229.0" font-size="12" font-weight="700" fill="#0b0b0b" text-anchor="middle">6</text>
+<text x="446.0" y="316.0" font-size="11.5" fill="#52514e" text-anchor="middle">7</text>
+<path d="M488.0,298.0 V134.0 Q488.0,130.0 492.0,130.0 H520.0 Q524.0,130.0 524.0,134.0 V298.0 Z" fill="#d03b3b"><title>8: 16</title></path>
+<text x="506.0" y="124.0" font-size="12" font-weight="700" fill="#0b0b0b" text-anchor="middle">16</text>
+<text x="506.0" y="316.0" font-size="11.5" fill="#52514e" text-anchor="middle">8</text>
+<path d="M548.0,298.0 V186.5 Q548.0,182.5 552.0,182.5 H580.0 Q584.0,182.5 584.0,186.5 V298.0 Z" fill="#d03b3b"><title>9: 11</title></path>
+<text x="566.0" y="176.5" font-size="12" font-weight="700" fill="#0b0b0b" text-anchor="middle">11</text>
+<text x="566.0" y="316.0" font-size="11.5" fill="#52514e" text-anchor="middle">9</text>
+<path d="M608.0,298.0 V176.0 Q608.0,172.0 612.0,172.0 H640.0 Q644.0,172.0 644.0,176.0 V298.0 Z" fill="#2a78d6"><title>10: 12</title></path>
+<text x="626.0" y="166.0" font-size="12" font-weight="700" fill="#0b0b0b" text-anchor="middle">12</text>
+<text x="626.0" y="316.0" font-size="11.5" fill="#52514e" text-anchor="middle">10</text>
+<path d="M668.0,298.0 V155.0 Q668.0,151.0 672.0,151.0 H700.0 Q704.0,151.0 704.0,155.0 V298.0 Z" fill="#d03b3b"><title>14: 14</title></path>
+<text x="686.0" y="145.0" font-size="12" font-weight="700" fill="#0b0b0b" text-anchor="middle">14</text>
+<text x="686.0" y="316.0" font-size="11.5" fill="#52514e" text-anchor="middle">14</text>
+<path d="M728.0,298.0 V123.5 Q728.0,119.5 732.0,119.5 H760.0 Q764.0,119.5 764.0,123.5 V298.0 Z" fill="#d03b3b"><title>15: 17</title></path>
+<text x="746.0" y="113.5" font-size="12" font-weight="700" fill="#0b0b0b" text-anchor="middle">17</text>
+<text x="746.0" y="316.0" font-size="11.5" fill="#52514e" text-anchor="middle">15</text>
+<path d="M788.0,298.0 V165.5 Q788.0,161.5 792.0,161.5 H820.0 Q824.0,161.5 824.0,165.5 V298.0 Z" fill="#d03b3b"><title>17: 13</title></path>
+<text x="806.0" y="155.5" font-size="12" font-weight="700" fill="#0b0b0b" text-anchor="middle">13</text>
+<text x="806.0" y="316.0" font-size="11.5" fill="#52514e" text-anchor="middle">17</text>
+</svg>

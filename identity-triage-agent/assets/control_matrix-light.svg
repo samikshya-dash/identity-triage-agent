@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="710" viewBox="0 0 1000 710" role="img" aria-label="Which Conditional Access policy matters for which detection">
+<style>text{font-family:system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif}</style>
+<rect x="0.5" y="0.5" width="999" height="709" rx="12" fill="#fcfcfb" stroke="#dcdbd4"/>
+<text x="24" y="36" font-size="17" font-weight="700" fill="#0b0b0b">Which Conditional Access policy matters for which detection</text>
+<text x="24" y="58" font-size="12.5" fill="#6f6e69">A mark means the agent checks that control after that kind of alert. Filled: in place in the sample tenant. Hollow, orange heading: a gap it reports.</text>
+<text transform="translate(311.0,224) rotate(-55)" font-size="11.8" fill="#52514e" font-weight="400">Sign-in risk policy</text>
+<line x1="307.0" x2="307.0" y1="232" y2="656" stroke="#e7e6df"/>
+<text transform="translate(345.0,224) rotate(-55)" font-size="11.8" fill="#eb6834" font-weight="600">User risk policy</text>
+<line x1="341.0" x2="341.0" y1="232" y2="656" stroke="#e7e6df"/>
+<text transform="translate(379.0,224) rotate(-55)" font-size="11.8" fill="#52514e" font-weight="400">MFA for all users</text>
+<line x1="375.0" x2="375.0" y1="232" y2="656" stroke="#e7e6df"/>
+<text transform="translate(413.0,224) rotate(-55)" font-size="11.8" fill="#eb6834" font-weight="600">Phishing-resistant MFA</text>
+<line x1="409.0" x2="409.0" y1="232" y2="656" stroke="#e7e6df"/>
+<text transform="translate(447.0,224) rotate(-55)" font-size="11.8" fill="#52514e" font-weight="400">Block legacy auth</text>
+<line x1="443.0" x2="443.0" y1="232" y2="656" stroke="#e7e6df"/>
+<text transform="translate(481.0,224) rotate(-55)" font-size="11.8" fill="#eb6834" font-weight="600">Compliant device</text>
+<line x1="477.0" x2="477.0" y1="232" y2="656" stroke="#e7e6df"/>
+<text transform="translate(515.0,224) rotate(-55)" font-size="11.8" fill="#eb6834" font-weight="600">Token protection</text>
+<line x1="511.0" x2="511.0" y1="232" y2="656" stroke="#e7e6df"/>
+<text transform="translate(549.0,224) rotate(-55)" font-size="11.8" fill="#52514e" font-weight="400">Named locations</text>
+<line x1="545.0" x2="545.0" y1="232" y2="656" stroke="#e7e6df"/>
+<text transform="translate(583.0,224) rotate(-55)" font-size="11.8" fill="#eb6834" font-weight="600">Block unused countries</text>
+<line x1="579.0" x2="579.0" y1="232" y2="656" stroke="#e7e6df"/>
+<text transform="translate(617.0,224) rotate(-55)" font-size="11.8" fill="#52514e" font-weight="400">Sign-in frequency</text>
+<line x1="613.0" x2="613.0" y1="232" y2="656" stroke="#e7e6df"/>
+<text transform="translate(651.0,224) rotate(-55)" font-size="11.8" fill="#eb6834" font-weight="600">App control (sessions)</text>
+<line x1="647.0" x2="647.0" y1="232" y2="656" stroke="#e7e6df"/>
+<text transform="translate(685.0,224) rotate(-55)" font-size="11.8" fill="#eb6834" font-weight="600">No stray exclusions</text>
+<line x1="681.0" x2="681.0" y1="232" y2="656" stroke="#e7e6df"/>
+<text transform="translate(719.0,224) rotate(-55)" font-size="11.8" fill="#52514e" font-weight="400">Smart lockout</text>
+<line x1="715.0" x2="715.0" y1="232" y2="656" stroke="#e7e6df"/>
+<text transform="translate(753.0,224) rotate(-55)" font-size="11.8" fill="#52514e" font-weight="400">Password hash sync</text>
+<line x1="749.0" x2="749.0" y1="232" y2="656" stroke="#e7e6df"/>
+<text transform="translate(787.0,224) rotate(-55)" font-size="11.8" fill="#eb6834" font-weight="600">Report suspicious MFA</text>
+<line x1="783.0" x2="783.0" y1="232" y2="656" stroke="#e7e6df"/>
+<text transform="translate(821.0,224) rotate(-55)" font-size="11.8" fill="#eb6834" font-weight="600">User consent limits</text>
+<line x1="817.0" x2="817.0" y1="232" y2="656" stroke="#e7e6df"/>
+<text transform="translate(855.0,224) rotate(-55)" font-size="11.8" fill="#eb6834" font-weight="600">Block ext. forwarding</text>
+<line x1="851.0" x2="851.0" y1="232" y2="656" stroke="#e7e6df"/>
+<text transform="translate(889.0,224) rotate(-55)" font-size="11.8" fill="#52514e" font-weight="400">Legacy policies moved</text>
+<line x1="885.0" x2="885.0" y1="232" y2="656" stroke="#e7e6df"/>
+<rect x="24" y="236" width="952" height="30" fill="#0b0b0b" fill-opacity="0.035"/>
+<text x="32" y="255.5" font-size="12.3" fill="#0b0b0b">Suspicious MFA authentication approval</text>
+<circle cx="307.0" cy="251.0" r="6.5" fill="#1baf7a"><title>Suspicious MFA authentication approval · Sign-in risk policy: in place</title></circle>
+<circle cx="409.0" cy="251.0" r="5.6" fill="#fcfcfb" stroke="#eb6834" stroke-width="2.6"><title>Suspicious MFA authentication approval · Phishing-resistant MFA: gap</title></circle>
+<circle cx="783.0" cy="251.0" r="5.6" fill="#fcfcfb" stroke="#eb6834" stroke-width="2.6"><title>Suspicious MFA authentication approval · Report suspicious MFA: gap</title></circle>
+<text x="32" y="285.5" font-size="12.3" fill="#0b0b0b">Attacker in the Middle</text>
+<circle cx="341.0" cy="281.0" r="5.6" fill="#fcfcfb" stroke="#eb6834" stroke-width="2.6"><title>Attacker in the Middle · User risk policy: gap</title></circle>
+<circle cx="409.0" cy="281.0" r="5.6" fill="#fcfcfb" stroke="#eb6834" stroke-width="2.6"><title>Attacker in the Middle · Phishing-resistant MFA: gap</title></circle>
+<circle cx="477.0" cy="281.0" r="5.6" fill="#fcfcfb" stroke="#eb6834" stroke-width="2.6"><title>Attacker in the Middle · Compliant device: gap</title></circle>
+<circle cx="511.0" cy="281.0" r="5.6" fill="#fcfcfb" stroke="#eb6834" stroke-width="2.6"><title>Attacker in the Middle · Token protection: gap</title></circle>
+<rect x="24" y="296" width="952" height="30" fill="#0b0b0b" fill-opacity="0.035"/>
+<text x="32" y="315.5" font-size="12.3" fill="#0b0b0b">Anomalous token</text>
+<circle cx="307.0" cy="311.0" r="6.5" fill="#1baf7a"><title>Anomalous token · Sign-in risk policy: in place</title></circle>
+<circle cx="477.0" cy="311.0" r="5.6" fill="#fcfcfb" stroke="#eb6834" stroke-width="2.6"><title>Anomalous token · Compliant device: gap</title></circle>
+<circle cx="511.0" cy="311.0" r="5.6" fill="#fcfcfb" stroke="#eb6834" stroke-width="2.6"><title>Anomalous token · Token protection: gap</title></circle>
+<circle cx="613.0" cy="311.0" r="6.5" fill="#1baf7a"><title>Anomalous token · Sign-in frequency: in place</title></circle>
+<text x="32" y="345.5" font-size="12.3" fill="#0b0b0b">Leaked credentials</text>
+<circle cx="341.0" cy="341.0" r="5.6" fill="#fcfcfb" stroke="#eb6834" stroke-width="2.6"><title>Leaked credentials · User risk policy: gap</title></circle>
+<circle cx="375.0" cy="341.0" r="6.5" fill="#1baf7a"><title>Leaked credentials · MFA for all users: in place</title></circle>
+<circle cx="749.0" cy="341.0" r="6.5" fill="#1baf7a"><title>Leaked credentials · Password hash sync: in place</title></circle>
+<circle cx="885.0" cy="341.0" r="6.5" fill="#1baf7a"><title>Leaked credentials · Legacy policies moved: in place</title></circle>
+<rect x="24" y="356" width="952" height="30" fill="#0b0b0b" fill-opacity="0.035"/>
+<text x="32" y="375.5" font-size="12.3" fill="#0b0b0b">Password spray</text>
+<circle cx="307.0" cy="371.0" r="6.5" fill="#1baf7a"><title>Password spray · Sign-in risk policy: in place</title></circle>
+<circle cx="375.0" cy="371.0" r="6.5" fill="#1baf7a"><title>Password spray · MFA for all users: in place</title></circle>
+<circle cx="443.0" cy="371.0" r="6.5" fill="#1baf7a"><title>Password spray · Block legacy auth: in place</title></circle>
+<circle cx="715.0" cy="371.0" r="6.5" fill="#1baf7a"><title>Password spray · Smart lockout: in place</title></circle>
+<text x="32" y="405.5" font-size="12.3" fill="#0b0b0b">Unfamiliar sign-in properties</text>
+<circle cx="307.0" cy="401.0" r="6.5" fill="#1baf7a"><title>Unfamiliar sign-in properties · Sign-in risk policy: in place</title></circle>
+<circle cx="477.0" cy="401.0" r="5.6" fill="#fcfcfb" stroke="#eb6834" stroke-width="2.6"><title>Unfamiliar sign-in properties · Compliant device: gap</title></circle>
+<circle cx="545.0" cy="401.0" r="6.5" fill="#1baf7a"><title>Unfamiliar sign-in properties · Named locations: in place</title></circle>
+<circle cx="681.0" cy="401.0" r="5.6" fill="#fcfcfb" stroke="#eb6834" stroke-width="2.6"><title>Unfamiliar sign-in properties · No stray exclusions: gap</title></circle>
+<rect x="24" y="416" width="952" height="30" fill="#0b0b0b" fill-opacity="0.035"/>
+<text x="32" y="435.5" font-size="12.3" fill="#0b0b0b">Anonymous IP address</text>
+<circle cx="307.0" cy="431.0" r="6.5" fill="#1baf7a"><title>Anonymous IP address · Sign-in risk policy: in place</title></circle>
+<circle cx="477.0" cy="431.0" r="5.6" fill="#fcfcfb" stroke="#eb6834" stroke-width="2.6"><title>Anonymous IP address · Compliant device: gap</title></circle>
+<circle cx="579.0" cy="431.0" r="5.6" fill="#fcfcfb" stroke="#eb6834" stroke-width="2.6"><title>Anonymous IP address · Block unused countries: gap</title></circle>
+<text x="32" y="465.5" font-size="12.3" fill="#0b0b0b">Suspicious inbox forwarding</text>
+<circle cx="307.0" cy="461.0" r="6.5" fill="#1baf7a"><title>Suspicious inbox forwarding · Sign-in risk policy: in place</title></circle>
+<circle cx="477.0" cy="461.0" r="5.6" fill="#fcfcfb" stroke="#eb6834" stroke-width="2.6"><title>Suspicious inbox forwarding · Compliant device: gap</title></circle>
+<circle cx="851.0" cy="461.0" r="5.6" fill="#fcfcfb" stroke="#eb6834" stroke-width="2.6"><title>Suspicious inbox forwarding · Block ext. forwarding: gap</title></circle>
+<rect x="24" y="476" width="952" height="30" fill="#0b0b0b" fill-opacity="0.035"/>
+<text x="32" y="495.5" font-size="12.3" fill="#0b0b0b">Suspicious API traffic</text>
+<circle cx="341.0" cy="491.0" r="5.6" fill="#fcfcfb" stroke="#eb6834" stroke-width="2.6"><title>Suspicious API traffic · User risk policy: gap</title></circle>
+<circle cx="477.0" cy="491.0" r="5.6" fill="#fcfcfb" stroke="#eb6834" stroke-width="2.6"><title>Suspicious API traffic · Compliant device: gap</title></circle>
+<circle cx="817.0" cy="491.0" r="5.6" fill="#fcfcfb" stroke="#eb6834" stroke-width="2.6"><title>Suspicious API traffic · User consent limits: gap</title></circle>
+<text x="32" y="525.5" font-size="12.3" fill="#0b0b0b">Mass access to sensitive files</text>
+<circle cx="307.0" cy="521.0" r="6.5" fill="#1baf7a"><title>Mass access to sensitive files · Sign-in risk policy: in place</title></circle>
+<circle cx="477.0" cy="521.0" r="5.6" fill="#fcfcfb" stroke="#eb6834" stroke-width="2.6"><title>Mass access to sensitive files · Compliant device: gap</title></circle>
+<circle cx="647.0" cy="521.0" r="5.6" fill="#fcfcfb" stroke="#eb6834" stroke-width="2.6"><title>Mass access to sensitive files · App control (sessions): gap</title></circle>
+<rect x="24" y="536" width="952" height="30" fill="#0b0b0b" fill-opacity="0.035"/>
+<text x="32" y="555.5" font-size="12.3" fill="#0b0b0b">Atypical travel</text>
+<circle cx="307.0" cy="551.0" r="6.5" fill="#1baf7a"><title>Atypical travel · Sign-in risk policy: in place</title></circle>
+<circle cx="477.0" cy="551.0" r="5.6" fill="#fcfcfb" stroke="#eb6834" stroke-width="2.6"><title>Atypical travel · Compliant device: gap</title></circle>
+<circle cx="545.0" cy="551.0" r="6.5" fill="#1baf7a"><title>Atypical travel · Named locations: in place</title></circle>
+<text x="32" y="585.5" font-size="12.3" fill="#0b0b0b">New country</text>
+<circle cx="307.0" cy="581.0" r="6.5" fill="#1baf7a"><title>New country · Sign-in risk policy: in place</title></circle>
+<circle cx="545.0" cy="581.0" r="6.5" fill="#1baf7a"><title>New country · Named locations: in place</title></circle>
+<circle cx="579.0" cy="581.0" r="5.6" fill="#fcfcfb" stroke="#eb6834" stroke-width="2.6"><title>New country · Block unused countries: gap</title></circle>
+<rect x="24" y="596" width="952" height="30" fill="#0b0b0b" fill-opacity="0.035"/>
+<text x="32" y="615.5" font-size="12.3" fill="#0b0b0b">Verified threat actor IP</text>
+<circle cx="307.0" cy="611.0" r="6.5" fill="#1baf7a"><title>Verified threat actor IP · Sign-in risk policy: in place</title></circle>
+<circle cx="409.0" cy="611.0" r="5.6" fill="#fcfcfb" stroke="#eb6834" stroke-width="2.6"><title>Verified threat actor IP · Phishing-resistant MFA: gap</title></circle>
+<circle cx="477.0" cy="611.0" r="5.6" fill="#fcfcfb" stroke="#eb6834" stroke-width="2.6"><title>Verified threat actor IP · Compliant device: gap</title></circle>
+<text x="32" y="645.5" font-size="12.3" fill="#0b0b0b">Microsoft Entra threat intelligence</text>
+<circle cx="307.0" cy="641.0" r="6.5" fill="#1baf7a"><title>Microsoft Entra threat intelligence · Sign-in risk policy: in place</title></circle>
+<circle cx="341.0" cy="641.0" r="5.6" fill="#fcfcfb" stroke="#eb6834" stroke-width="2.6"><title>Microsoft Entra threat intelligence · User risk policy: gap</title></circle>
+<circle cx="443.0" cy="641.0" r="6.5" fill="#1baf7a"><title>Microsoft Entra threat intelligence · Block legacy auth: in place</title></circle>
+<circle cx="38" cy="682" r="6.5" fill="#1baf7a"/><text x="52" y="686" font-size="12" fill="#52514e">in place</text>
+<circle cx="134" cy="682" r="5.6" fill="#fcfcfb" stroke="#eb6834" stroke-width="2.6"/><text x="148" y="686" font-size="12" fill="#52514e">gap in the sample tenant: missing, report-only, or not covering every app</text>
+</svg>

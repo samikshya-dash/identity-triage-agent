@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="476" viewBox="0 0 1000 476" role="img" aria-label="Seven guardrails, all in code">
+<style>text{font-family:system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif}</style>
+<rect x="0.5" y="0.5" width="999" height="475" rx="12" fill="#fcfcfb" stroke="#dcdbd4"/>
+<text x="24" y="36" font-size="17" font-weight="700" fill="#0b0b0b">Seven guardrails, all in code</text>
+<text x="24" y="58" font-size="12.5" fill="#6f6e69">None of them is a line in the prompt, so nothing the model reads can talk its way past them.</text>
+<rect x="24.0" y="80" width="223.0" height="176" rx="10" fill="#ffffff" stroke="#dcdbd4"/><rect x="24.0" y="80" width="223.0" height="4" rx="2" fill="#4a3aa7"/>
+<circle cx="54.0" cy="116" r="15" fill="#4a3aa7"/><text x="54.0" y="121.5" font-size="15" font-weight="700" fill="#fff" text-anchor="middle">1</text>
+<text x="80.0" y="121" font-size="15.5" font-weight="700" fill="#0b0b0b">Pre-triage</text>
+<text x="44.0" y="156" font-size="12.5" fill="#52514e">Closed alerts stay closed</text>
+<text x="44.0" y="175" font-size="12.5" fill="#52514e">only if the logs agree. No</text>
+<text x="44.0" y="194" font-size="12.5" fill="#52514e">model is called for them</text>
+<rect x="44.0" y="220" width="100" height="24" rx="12" fill="#4a3aa7" fill-opacity="0.15000000000000002"/><text x="56.0" y="236.5" font-size="11.5" font-weight="600" fill="#0b0b0b" font-family="ui-monospace,Menlo,Consolas,monospace">verifier.py</text>
+<rect x="267.0" y="80" width="223.0" height="176" rx="10" fill="#ffffff" stroke="#dcdbd4"/><rect x="267.0" y="80" width="223.0" height="4" rx="2" fill="#2a78d6"/>
+<circle cx="297.0" cy="116" r="15" fill="#2a78d6"/><text x="297.0" y="121.5" font-size="15" font-weight="700" fill="#fff" text-anchor="middle">2</text>
+<text x="323.0" y="121" font-size="15.5" font-weight="700" fill="#0b0b0b">Tool allow-list</text>
+<text x="287.0" y="156" font-size="12.5" fill="#52514e">Thirteen named tools.</text>
+<text x="287.0" y="175" font-size="12.5" fill="#52514e">Eleven only read. Anything</text>
+<text x="287.0" y="194" font-size="12.5" fill="#52514e">else is refused</text>
+<rect x="287.0" y="220" width="72" height="24" rx="12" fill="#2a78d6" fill-opacity="0.15000000000000002"/><text x="299.0" y="236.5" font-size="11.5" font-weight="600" fill="#0b0b0b" font-family="ui-monospace,Menlo,Consolas,monospace">loop.py</text>
+<rect x="510.0" y="80" width="223.0" height="176" rx="10" fill="#ffffff" stroke="#dcdbd4"/><rect x="510.0" y="80" width="223.0" height="4" rx="2" fill="#2a78d6"/>
+<circle cx="540.0" cy="116" r="15" fill="#2a78d6"/><text x="540.0" y="121.5" font-size="15" font-weight="700" fill="#fff" text-anchor="middle">3</text>
+<text x="566.0" y="121" font-size="15.5" font-weight="700" fill="#0b0b0b">Step budget</text>
+<text x="530.0" y="156" font-size="12.5" fill="#52514e">An investigation that</text>
+<text x="530.0" y="175" font-size="12.5" fill="#52514e">doesn't finish in 30 tool</text>
+<text x="530.0" y="194" font-size="12.5" fill="#52514e">calls goes to a person</text>
+<rect x="530.0" y="220" width="72" height="24" rx="12" fill="#2a78d6" fill-opacity="0.15000000000000002"/><text x="542.0" y="236.5" font-size="11.5" font-weight="600" fill="#0b0b0b" font-family="ui-monospace,Menlo,Consolas,monospace">loop.py</text>
+<rect x="753.0" y="80" width="223.0" height="176" rx="10" fill="#ffffff" stroke="#dcdbd4"/><rect x="753.0" y="80" width="223.0" height="4" rx="2" fill="#eb6834"/>
+<circle cx="783.0" cy="116" r="15" fill="#eb6834"/><text x="783.0" y="121.5" font-size="15" font-weight="700" fill="#fff" text-anchor="middle">4</text>
+<text x="809.0" y="121" font-size="15.5" font-weight="700" fill="#0b0b0b">Scope lock</text>
+<text x="773.0" y="156" font-size="12.5" fill="#52514e">Actions may only target the</text>
+<text x="773.0" y="175" font-size="12.5" fill="#52514e">account or IP in this alert</text>
+<rect x="773.0" y="220" width="86" height="24" rx="12" fill="#eb6834" fill-opacity="0.15000000000000002"/><text x="785.0" y="236.5" font-size="11.5" font-weight="600" fill="#0b0b0b" font-family="ui-monospace,Menlo,Consolas,monospace">policy.py</text>
+<rect x="24.0" y="276" width="223.0" height="176" rx="10" fill="#ffffff" stroke="#dcdbd4"/><rect x="24.0" y="276" width="223.0" height="4" rx="2" fill="#eb6834"/>
+<circle cx="54.0" cy="312" r="15" fill="#eb6834"/><text x="54.0" y="317.5" font-size="15" font-weight="700" fill="#fff" text-anchor="middle">5</text>
+<text x="80.0" y="317" font-size="15.5" font-weight="700" fill="#0b0b0b">Action policy</text>
+<text x="44.0" y="352" font-size="12.5" fill="#52514e">Only session revocation</text>
+<text x="44.0" y="371" font-size="12.5" fill="#52514e">runs by itself. The rest</text>
+<text x="44.0" y="390" font-size="12.5" fill="#52514e">waits for approval</text>
+<rect x="44.0" y="416" width="86" height="24" rx="12" fill="#eb6834" fill-opacity="0.15000000000000002"/><text x="56.0" y="432.5" font-size="11.5" font-weight="600" fill="#0b0b0b" font-family="ui-monospace,Menlo,Consolas,monospace">policy.py</text>
+<rect x="267.0" y="276" width="223.0" height="176" rx="10" fill="#ffffff" stroke="#dcdbd4"/><rect x="267.0" y="276" width="223.0" height="4" rx="2" fill="#e34948"/>
+<circle cx="297.0" cy="312" r="15" fill="#e34948"/><text x="297.0" y="317.5" font-size="15" font-weight="700" fill="#fff" text-anchor="middle">6</text>
+<text x="323.0" y="317" font-size="15.5" font-weight="700" fill="#0b0b0b">Verifier</text>
+<text x="287.0" y="352" font-size="12.5" fill="#52514e">Evidence must cite real</text>
+<text x="287.0" y="371" font-size="12.5" fill="#52514e">tool calls. A 'benign' that</text>
+<text x="287.0" y="390" font-size="12.5" fill="#52514e">contradicts the data is</text>
+<text x="287.0" y="409" font-size="12.5" fill="#52514e">overruled</text>
+<rect x="287.0" y="416" width="100" height="24" rx="12" fill="#e34948" fill-opacity="0.15000000000000002"/><text x="299.0" y="432.5" font-size="11.5" font-weight="600" fill="#0b0b0b" font-family="ui-monospace,Menlo,Consolas,monospace">verifier.py</text>
+<rect x="510.0" y="276" width="223.0" height="176" rx="10" fill="#ffffff" stroke="#dcdbd4"/><rect x="510.0" y="276" width="223.0" height="4" rx="2" fill="#1baf7a"/>
+<circle cx="540.0" cy="312" r="15" fill="#1baf7a"/><text x="540.0" y="317.5" font-size="15" font-weight="700" fill="#fff" text-anchor="middle">7</text>
+<text x="566.0" y="317" font-size="15.5" font-weight="700" fill="#0b0b0b">Audit trail</text>
+<text x="530.0" y="352" font-size="12.5" fill="#52514e">Every tool call, proposal,</text>
+<text x="530.0" y="371" font-size="12.5" fill="#52514e">policy decision and verdict</text>
+<text x="530.0" y="390" font-size="12.5" fill="#52514e">is logged</text>
+<rect x="530.0" y="416" width="128" height="24" rx="12" fill="#1baf7a" fill-opacity="0.15000000000000002"/><text x="542.0" y="432.5" font-size="11.5" font-weight="600" fill="#0b0b0b" font-family="ui-monospace,Menlo,Consolas,monospace">audit_log.jsonl</text>
+</svg>

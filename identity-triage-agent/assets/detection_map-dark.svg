@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="658" viewBox="0 0 1000 658" role="img" aria-label="The 26 ID Protection risk detections the agent knows">
+<style>text{font-family:system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif}</style>
+<rect x="0.5" y="0.5" width="999" height="657" rx="12" fill="#0b1b33" stroke="#2a4f80"/>
+<text x="24" y="36" font-size="17" font-weight="700" fill="#ffffff">The 26 ID Protection risk detections the agent knows</text>
+<text x="24" y="58" font-size="12.5" fill="#8fb3dd">Colour bar: starting priority before investigation. A lock means passing MFA does not clear the risk, so the agent never auto-closes it on MFA alone.</text>
+<rect x="24" y="76" width="14" height="14" rx="3" fill="#e66767"/><text x="44" y="88" font-size="12" fill="#cfe3ff">P1 start</text>
+<rect x="120" y="76" width="14" height="14" rx="3" fill="#d95926"/><text x="140" y="88" font-size="12" fill="#cfe3ff">P2 start</text>
+<rect x="216" y="76" width="14" height="14" rx="3" fill="#3987e5"/><text x="236" y="88" font-size="12" fill="#cfe3ff">P3 start</text>
+<text x="322" y="88" font-size="12" fill="#cfe3ff">🔒 MFA is not enough   ·   S sign-in risk   U user risk   ·   RT real-time   OFF offline</text>
+<rect x="24" y="112" width="228" height="66" rx="8" fill="#10233f" stroke="#2a4f80"/><rect x="24" y="112" width="5" height="66" rx="2.5" fill="#e66767"/>
+<text x="40" y="134" font-size="12.6" font-weight="700" fill="#ffffff">Admin confirmed user</text>
+<text x="40" y="150" font-size="12.6" font-weight="700" fill="#ffffff">compromised</text>
+<text x="40" y="168" font-size="11" fill="#8fb3dd">S · OFF · 🔒</text>
+<rect x="265" y="112" width="228" height="66" rx="8" fill="#10233f" stroke="#2a4f80"/><rect x="265" y="112" width="5" height="66" rx="2.5" fill="#e66767"/>
+<text x="281" y="134" font-size="12.6" font-weight="700" fill="#ffffff">Anomalous token</text>
+<text x="281" y="168" font-size="11" fill="#8fb3dd">S+U · RT/OFF · 🔒</text>
+<rect x="506" y="112" width="228" height="66" rx="8" fill="#10233f" stroke="#2a4f80"/><rect x="506" y="112" width="5" height="66" rx="2.5" fill="#e66767"/>
+<text x="522" y="134" font-size="12.6" font-weight="700" fill="#ffffff">Microsoft Entra threat</text>
+<text x="522" y="150" font-size="12.6" font-weight="700" fill="#ffffff">intelligence</text>
+<text x="522" y="168" font-size="11" fill="#8fb3dd">S+U · RT/OFF · 🔒</text>
+<rect x="747" y="112" width="228" height="66" rx="8" fill="#10233f" stroke="#2a4f80"/><rect x="747" y="112" width="5" height="66" rx="2.5" fill="#e66767"/>
+<text x="763" y="134" font-size="12.6" font-weight="700" fill="#ffffff">Suspicious MFA</text>
+<text x="763" y="150" font-size="12.6" font-weight="700" fill="#ffffff">authentication approval</text>
+<text x="763" y="168" font-size="11" fill="#8fb3dd">S · RT · 🔒</text>
+<rect x="24" y="188" width="228" height="66" rx="8" fill="#10233f" stroke="#2a4f80"/><rect x="24" y="188" width="5" height="66" rx="2.5" fill="#e66767"/>
+<text x="40" y="210" font-size="12.6" font-weight="700" fill="#ffffff">Suspicious inbox forwarding</text>
+<text x="40" y="244" font-size="11" fill="#8fb3dd">S · OFF · 🔒</text>
+<rect x="265" y="188" width="228" height="66" rx="8" fill="#10233f" stroke="#2a4f80"/><rect x="265" y="188" width="5" height="66" rx="2.5" fill="#e66767"/>
+<text x="281" y="210" font-size="12.6" font-weight="700" fill="#ffffff">Suspicious inbox</text>
+<text x="281" y="226" font-size="12.6" font-weight="700" fill="#ffffff">manipulation rules</text>
+<text x="281" y="244" font-size="11" fill="#8fb3dd">S · OFF · 🔒</text>
+<rect x="506" y="188" width="228" height="66" rx="8" fill="#10233f" stroke="#2a4f80"/><rect x="506" y="188" width="5" height="66" rx="2.5" fill="#e66767"/>
+<text x="522" y="210" font-size="12.6" font-weight="700" fill="#ffffff">Token issuer anomaly</text>
+<text x="522" y="244" font-size="11" fill="#8fb3dd">S · OFF · 🔒</text>
+<rect x="747" y="188" width="228" height="66" rx="8" fill="#10233f" stroke="#2a4f80"/><rect x="747" y="188" width="5" height="66" rx="2.5" fill="#e66767"/>
+<text x="763" y="210" font-size="12.6" font-weight="700" fill="#ffffff">Verified threat actor IP</text>
+<text x="763" y="244" font-size="11" fill="#8fb3dd">S · RT · 🔒</text>
+<rect x="24" y="264" width="228" height="66" rx="8" fill="#10233f" stroke="#2a4f80"/><rect x="24" y="264" width="5" height="66" rx="2.5" fill="#d95926"/>
+<text x="40" y="286" font-size="12.6" font-weight="700" fill="#ffffff">Activity from anonymous IP</text>
+<text x="40" y="302" font-size="12.6" font-weight="700" fill="#ffffff">address</text>
+<text x="40" y="320" font-size="11" fill="#8fb3dd">S · OFF</text>
+<rect x="265" y="264" width="228" height="66" rx="8" fill="#10233f" stroke="#2a4f80"/><rect x="265" y="264" width="5" height="66" rx="2.5" fill="#d95926"/>
+<text x="281" y="286" font-size="12.6" font-weight="700" fill="#ffffff">Anonymous IP address</text>
+<text x="281" y="320" font-size="11" fill="#8fb3dd">S · RT</text>
+<rect x="506" y="264" width="228" height="66" rx="8" fill="#10233f" stroke="#2a4f80"/><rect x="506" y="264" width="5" height="66" rx="2.5" fill="#d95926"/>
+<text x="522" y="286" font-size="12.6" font-weight="700" fill="#ffffff">Malicious IP address</text>
+<text x="522" y="320" font-size="11" fill="#8fb3dd">S · OFF</text>
+<rect x="747" y="264" width="228" height="66" rx="8" fill="#10233f" stroke="#2a4f80"/><rect x="747" y="264" width="5" height="66" rx="2.5" fill="#d95926"/>
+<text x="763" y="286" font-size="12.6" font-weight="700" fill="#ffffff">Mass access to sensitive</text>
+<text x="763" y="302" font-size="12.6" font-weight="700" fill="#ffffff">files</text>
+<text x="763" y="320" font-size="11" fill="#8fb3dd">S · OFF</text>
+<rect x="24" y="340" width="228" height="66" rx="8" fill="#10233f" stroke="#2a4f80"/><rect x="24" y="340" width="5" height="66" rx="2.5" fill="#d95926"/>
+<text x="40" y="362" font-size="12.6" font-weight="700" fill="#ffffff">Password spray</text>
+<text x="40" y="396" font-size="11" fill="#8fb3dd">S · RT/OFF · 🔒</text>
+<rect x="265" y="340" width="228" height="66" rx="8" fill="#10233f" stroke="#2a4f80"/><rect x="265" y="340" width="5" height="66" rx="2.5" fill="#d95926"/>
+<text x="281" y="362" font-size="12.6" font-weight="700" fill="#ffffff">Suspicious browser</text>
+<text x="281" y="396" font-size="11" fill="#8fb3dd">S · OFF</text>
+<rect x="506" y="340" width="228" height="66" rx="8" fill="#10233f" stroke="#2a4f80"/><rect x="506" y="340" width="5" height="66" rx="2.5" fill="#d95926"/>
+<text x="522" y="362" font-size="12.6" font-weight="700" fill="#ffffff">Unfamiliar sign-in</text>
+<text x="522" y="378" font-size="12.6" font-weight="700" fill="#ffffff">properties</text>
+<text x="522" y="396" font-size="11" fill="#8fb3dd">S · RT</text>
+<rect x="747" y="340" width="228" height="66" rx="8" fill="#10233f" stroke="#2a4f80"/><rect x="747" y="340" width="5" height="66" rx="2.5" fill="#3987e5"/>
+<text x="763" y="362" font-size="12.6" font-weight="700" fill="#ffffff">Additional risk detected</text>
+<text x="763" y="396" font-size="11" fill="#8fb3dd">S+U · RT/OFF</text>
+<rect x="24" y="416" width="228" height="66" rx="8" fill="#10233f" stroke="#2a4f80"/><rect x="24" y="416" width="5" height="66" rx="2.5" fill="#3987e5"/>
+<text x="40" y="438" font-size="12.6" font-weight="700" fill="#ffffff">Atypical travel</text>
+<text x="40" y="472" font-size="11" fill="#8fb3dd">S · OFF</text>
+<rect x="265" y="416" width="228" height="66" rx="8" fill="#10233f" stroke="#2a4f80"/><rect x="265" y="416" width="5" height="66" rx="2.5" fill="#3987e5"/>
+<text x="281" y="438" font-size="12.6" font-weight="700" fill="#ffffff">Impossible travel</text>
+<text x="281" y="472" font-size="11" fill="#8fb3dd">S · OFF</text>
+<rect x="506" y="416" width="228" height="66" rx="8" fill="#10233f" stroke="#2a4f80"/><rect x="506" y="416" width="5" height="66" rx="2.5" fill="#3987e5"/>
+<text x="522" y="438" font-size="12.6" font-weight="700" fill="#ffffff">New country</text>
+<text x="522" y="472" font-size="11" fill="#8fb3dd">S · OFF</text>
+<rect x="747" y="416" width="228" height="66" rx="8" fill="#10233f" stroke="#2a4f80"/><rect x="747" y="416" width="5" height="66" rx="2.5" fill="#e66767"/>
+<text x="763" y="438" font-size="12.6" font-weight="700" fill="#ffffff">Anomalous user activity</text>
+<text x="763" y="472" font-size="11" fill="#8fb3dd">U · OFF · 🔒</text>
+<rect x="24" y="492" width="228" height="66" rx="8" fill="#10233f" stroke="#2a4f80"/><rect x="24" y="492" width="5" height="66" rx="2.5" fill="#e66767"/>
+<text x="40" y="514" font-size="12.6" font-weight="700" fill="#ffffff">Attacker in the Middle</text>
+<text x="40" y="548" font-size="11" fill="#8fb3dd">U · OFF · 🔒</text>
+<rect x="265" y="492" width="228" height="66" rx="8" fill="#10233f" stroke="#2a4f80"/><rect x="265" y="492" width="5" height="66" rx="2.5" fill="#e66767"/>
+<text x="281" y="514" font-size="12.6" font-weight="700" fill="#ffffff">Leaked credentials</text>
+<text x="281" y="548" font-size="11" fill="#8fb3dd">U · OFF · 🔒</text>
+<rect x="506" y="492" width="228" height="66" rx="8" fill="#10233f" stroke="#2a4f80"/><rect x="506" y="492" width="5" height="66" rx="2.5" fill="#e66767"/>
+<text x="522" y="514" font-size="12.6" font-weight="700" fill="#ffffff">Possible attempt to access</text>
+<text x="522" y="530" font-size="12.6" font-weight="700" fill="#ffffff">Primary Refresh Token</text>
+<text x="522" y="548" font-size="11" fill="#8fb3dd">U · OFF · 🔒</text>
+<rect x="747" y="492" width="228" height="66" rx="8" fill="#10233f" stroke="#2a4f80"/><rect x="747" y="492" width="5" height="66" rx="2.5" fill="#d95926"/>
+<text x="763" y="514" font-size="12.6" font-weight="700" fill="#ffffff">Suspicious API traffic</text>
+<text x="763" y="548" font-size="11" fill="#8fb3dd">U · OFF · 🔒</text>
+<rect x="24" y="568" width="228" height="66" rx="8" fill="#10233f" stroke="#2a4f80"/><rect x="24" y="568" width="5" height="66" rx="2.5" fill="#d95926"/>
+<text x="40" y="590" font-size="12.6" font-weight="700" fill="#ffffff">Suspicious sending patterns</text>
+<text x="40" y="624" font-size="11" fill="#8fb3dd">U · OFF · 🔒</text>
+<rect x="265" y="568" width="228" height="66" rx="8" fill="#10233f" stroke="#2a4f80"/><rect x="265" y="568" width="5" height="66" rx="2.5" fill="#d95926"/>
+<text x="281" y="590" font-size="12.6" font-weight="700" fill="#ffffff">User reported suspicious</text>
+<text x="281" y="606" font-size="12.6" font-weight="700" fill="#ffffff">activity</text>
+<text x="281" y="624" font-size="11" fill="#8fb3dd">U · OFF · 🔒</text>
+</svg>
